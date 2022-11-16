@@ -1,3 +1,3 @@
-    #Portifolio web
+# Portifolio web
 
-    Esse é meu portifolio criado e desenvolvido em meu primeiro __[site](jp-almada.github.io)__
+Esse é meu portifolio criado e desenvolvido em meu primeiro __[site](https://jp-almada.github.io/)__
