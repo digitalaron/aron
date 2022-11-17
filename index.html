@@ -8,100 +8,147 @@
     <title>Portifolio</title>
 </head>
 
-<style> 
+<style>
+    body {
+        background-color: rgba(68, 168, 97, 0.6);
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
-body {background-color: rgba(60, 221, 103, 0.6)
+    #inicio {
+        color: white;
+        background-color: rgb(39, 69, 36);
+        font-size: 48px;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        box-sizing: border-box;
+        border-radius: 25px;
+    }
+
+    #me {
+        color: rgb(39, 69, 36);
+        font-size: 24;
+        font: bold;
+    }
+
+    #frase {
+        color: rgb(1, 84, 27);
+        font-size: 17px;
+        font-style: italic;
+    }
+
+    #list {
+        text-align: center;
+        color: rgb(193, 249, 193);
+        background-color: rgb(68, 115, 83);
+        font-size: 20px;
+    }
+
+    #hab {
+        background-color: rgb(39, 69, 36);
+        font-size: 25px;
+    }
+
+    #chk{
+        font-size: 23px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    #foto {
+        box-sizing: border-box;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: seagreen;
+    }
+
+    #info {
+        font-size: 15px;
+        font-style: italic;
+        text-align: end;
+    }
+
+    .fts {
+        border-radius: 15px;
+        padding: 10px;
+        background: local seagreen;
+    }
+
+#pais{
+background-color: rgb(68, 115, 83); 
+color: rgb(196, 251, 207);
+font-style: italic;
 }
 
-#inicio {color: white;
-    background-color: green;
-    font-size: 48px;
-    font-family:'Times New Roman', Times, serif;
-    text-align: center;
-}
-
-#me {
-    color: white;
-    font-size: 24;
-}
-
-#frase {color: rgb(1, 84, 27);}
-
-#hab {
-    text-align: center;
-    text-decoration:underline;
-    background-color: rgb(46, 46, 46);
-    color: rgb(123, 254, 123);
-    font-size: 25px;
-}
-
-
-#chk {
-    text-align:center;
-    background-color: rgb(62, 62, 62);
-    border-color: white;
-    color: rgb(123, 254, 123);
-    font-size: 20px;}
-
-#foto{
-    align-self: center;
+#cidade{
+    background-color: rgb(196, 251, 207);
     border-radius: 15px;
-
-    
+    color: rgb(39, 69, 36);
 }
+
+
 
 </style>
 
 <body>
     <h1 id="inicio"> <strong> Olá! Meu nome é João Pedro de Assis Almada </strong></h1>
-    <h2 id="me"><em> E esse sou eu:</em><h2>
+    <h2 id="me"><em> E ESSE SOU EU:</em>
+        <h2>
 
-            <img id="foto" src="https://scontent.fiza1-1.fna.fbcdn.net/v/t39.30808-6/246859400_4433656506720606_5940284232928061299_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFC7X3sgubyuJJuPZc71iNZ6HTovUZJqSjodOi9RkmpKOat0cLTLOBIN3z1cp4mpzdsS9--kaOdlqhVS2PJA2Is&_nc_ohc=AUgEKy9rJ5gAX9TM7ns&_nc_ht=scontent.fiza1-1.fna&oh=00_AfCi2VGszYmmHEPNr0gI4zHXZt0VOBmcNmbCe8OhRmLyHA&oe=637A80CE"
+            <img id="foto"
+                src="https://scontent.fiza1-1.fna.fbcdn.net/v/t39.30808-6/246859400_4433656506720606_5940284232928061299_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFC7X3sgubyuJJuPZc71iNZ6HTovUZJqSjodOi9RkmpKOat0cLTLOBIN3z1cp4mpzdsS9--kaOdlqhVS2PJA2Is&_nc_ohc=AUgEKy9rJ5gAX9TM7ns&_nc_ht=scontent.fiza1-1.fna&oh=00_AfCi2VGszYmmHEPNr0gI4zHXZt0VOBmcNmbCe8OhRmLyHA&oe=637A80CE"
                 alt="Euzin" width="300px">
-            <h5>
+            <h3>
                 <p id="frase"> <em> Aprendendo, testando e errando
                         <br>(principalmente errando) </em>
                 </p>
-            </h5>
+            </h3>
 
-            <h1> </h1>
+          <br>
 
             <h3>
-                <p> Vamos lá! Para me conhecerem melhor: Sou de Carandaí, uma cidadezinha no interior de Minas Gerais
-                    <br> <img src="imagens/cdai.jpg" alt="casinha" width="200px">
-                    <img src="imagens/cdai3.jpg" alt="casinha" width="200px">
-                    <img src="imagens/cdai4.jpg" alt="casinha" width="200px">
-                    <br> Como a maioria dos brasileiros, sou <strong> apaixonado </strong> por praias, futebol e
-                    principalmente, pela
-                    comida!
-
+                <p> VAMOS LÁ!
+                    <br> 
+                    <p id="id"> Para me conhecerem melhor: </p>
+                    <p id="cidade"> Sou de Carandaí, uma cidadezinha no interior de Minas Gerais </p>
+                    <img class="fts" src="imagens/cdai.jpg" alt="casinha" width="200px">
+                    <img class="fts" src="imagens/cdai3.jpg" alt="casinha" width="200px">
+                    <img class="fts" src="imagens/cdai4.jpg" alt="casinha" width="200px">
                     <br>
+                    <br><p id="pais"> Como um típico brasileiro, sou <strong> apaixonado </strong> por praias, futebol e
+                    principalmente, pela
+                    comida!</p>
+                </p>
+            </h3>
 
-                    </p>
-
-                    <p id="hab">
-                    <br> <em> Minhas melhores habilidades são: </em>
+            <h3 id="list">
+                <p id="hab">
+                    
+                    <em> Minhas melhores habilidades são: </em>
                 <ul id="chk">
                     <li>Comunicação</li>
                     <li>Escuta</li>
                     <li>Afinidade com programação</li>
                     <li>Designer em horas vagas</li>
                     <li>Comportamento</li>
+                    <br>
                 </ul>
 
 
                 </p>
             </h3>
 
-            <h4>
+            <h4 id="info">
                 Mais informações:
+                <br>
+                <a
+                    href="https://scontent.fiza1-1.fna.fbcdn.net/v/t39.30808-6/246859400_4433656506720606_5940284232928061299_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFC7X3sgubyuJJuPZc71iNZ6HTovUZJqSjodOi9RkmpKOat0cLTLOBIN3z1cp4mpzdsS9--kaOdlqhVS2PJA2Is&_nc_ohc=AUgEKy9rJ5gAX9TM7ns&_nc_ht=scontent.fiza1-1.fna&oh=00_AfCi2VGszYmmHEPNr0gI4zHXZt0VOBmcNmbCe8OhRmLyHA&oe=637A80CE">Euzin</a>
+                <br>
+                <a href="https://www.sohistoria.com.br/lendasemitos/br/" target="_blank">Meu melhor passatempo</a>
+                <br>
+                <a href="https://jp-almada.github.io/">Inicio</a>
             </h4>
-            <a
-                href="https://scontent.fiza1-1.fna.fbcdn.net/v/t39.30808-6/246859400_4433656506720606_5940284232928061299_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFC7X3sgubyuJJuPZc71iNZ6HTovUZJqSjodOi9RkmpKOat0cLTLOBIN3z1cp4mpzdsS9--kaOdlqhVS2PJA2Is&_nc_ohc=AUgEKy9rJ5gAX9TM7ns&_nc_ht=scontent.fiza1-1.fna&oh=00_AfCi2VGszYmmHEPNr0gI4zHXZt0VOBmcNmbCe8OhRmLyHA&oe=637A80CE">Euzin</a>
-            <br>
-            <a href="https://www.sohistoria.com.br/lendasemitos/br/" target="_blank">Meu melhor passatempo</a>
-            <br>
-            <a href="https://jp-almada.github.io/">Inicio</a>
 
 
 
