@@ -8,15 +8,58 @@
     <title>Portifolio</title>
 </head>
 
-<body>
-    <em><h4 class="home">Home </h4></em>
-    <h1> <strong> Olá! Meu nome é João Pedro de Assis Almada </strong></h1>
-    <h2> E esse sou eu:<h2>
+<style> 
 
-            <img src="https://scontent.fiza1-1.fna.fbcdn.net/v/t39.30808-6/246859400_4433656506720606_5940284232928061299_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFC7X3sgubyuJJuPZc71iNZ6HTovUZJqSjodOi9RkmpKOat0cLTLOBIN3z1cp4mpzdsS9--kaOdlqhVS2PJA2Is&_nc_ohc=AUgEKy9rJ5gAX9TM7ns&_nc_ht=scontent.fiza1-1.fna&oh=00_AfCi2VGszYmmHEPNr0gI4zHXZt0VOBmcNmbCe8OhRmLyHA&oe=637A80CE"
+body {background-color: rgba(60, 221, 103, 0.6)
+}
+
+#inicio {color: white;
+    background-color: green;
+    font-size: 48px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#me {
+    color: white;
+    font-size: 24;
+}
+
+#frase {color: rgb(1, 84, 27);}
+
+#hab {
+    text-align: center;
+    text-decoration:underline;
+    background-color: rgb(46, 46, 46);
+    color: rgb(123, 254, 123);
+    font-size: 25px;
+}
+
+
+#chk {
+    text-align:center;
+    background-color: rgb(62, 62, 62);
+    border-color: white;
+    color: rgb(123, 254, 123);
+    font-size: 20px;}
+
+#foto{
+    align-self: center;
+    border-radius: 15px;
+
+    
+}
+
+</style>
+
+<body>
+    <h1 id="inicio"> <strong> Olá! Meu nome é João Pedro de Assis Almada </strong></h1>
+    <h2 id="me"><em> E esse sou eu:</em><h2>
+
+            <img id="foto" src="https://scontent.fiza1-1.fna.fbcdn.net/v/t39.30808-6/246859400_4433656506720606_5940284232928061299_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFC7X3sgubyuJJuPZc71iNZ6HTovUZJqSjodOi9RkmpKOat0cLTLOBIN3z1cp4mpzdsS9--kaOdlqhVS2PJA2Is&_nc_ohc=AUgEKy9rJ5gAX9TM7ns&_nc_ht=scontent.fiza1-1.fna&oh=00_AfCi2VGszYmmHEPNr0gI4zHXZt0VOBmcNmbCe8OhRmLyHA&oe=637A80CE"
                 alt="Euzin" width="300px">
             <h5>
-                <p> <em> Aprendendo, testando e errando
+                <p id="frase"> <em> Aprendendo, testando e errando
                         <br>(principalmente errando) </em>
                 </p>
             </h5>
@@ -34,14 +77,18 @@
 
                     <br>
 
+                    </p>
+
+                    <p id="hab">
                     <br> <em> Minhas melhores habilidades são: </em>
-                <ul>
+                <ul id="chk">
                     <li>Comunicação</li>
                     <li>Escuta</li>
                     <li>Afinidade com programação</li>
                     <li>Designer em horas vagas</li>
                     <li>Comportamento</li>
                 </ul>
+
 
                 </p>
             </h3>
