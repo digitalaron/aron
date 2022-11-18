@@ -6,118 +6,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<style>
-    body {
-        background-color: rgba(68, 168, 97, 0.6);
-        text-align: center;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    #inicio {
-        color: white;
-        background-color: rgb(39, 69, 36);
-        font-size: 48px;
-        font-style: italic;
-        font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-        box-sizing: border-box;
-        border-radius: 25px;
-    }
-
-    #me {
-        color: rgb(39, 69, 36);
-        font-size: 24;
-        font: bold;
-    }
-
-    #frase {
-        color: rgb(1, 84, 27);
-        font-size: 17px;
-        font-style: italic;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    #list {
-        text-align: center;
-        color: rgb(193, 249, 193);
-        background-color: rgb(68, 115, 83);
-        font-size: 20px;
-    }
-
-    #hab {
-        background-color: rgb(39, 69, 36);
-        font-size: 25px;
-    }
-
-    #chk{
-        font-size: 23px;
-        font-family: 'Times New Roman', Times, serif;
-
-    }
-
-    #foto {
-        box-sizing: border-box;
-        border-radius: 15px;
-        padding: 10px;
-        background-color: seagreen;
-    }
-
-    #info {
-        font-size: 15px;
-        font-style: italic;
-        text-align: end;
-    }
-
-    .fts {
-        border-radius: 15px;
-        padding: 10px;
-        background: local seagreen;
-    }
-
-#pais{
-background-color: rgb(68, 115, 83); 
-color: rgb(196, 251, 207);
-font-style: italic;
-}
-
-#cidade{
-    background-color: rgb(196, 251, 207);
-    border-radius: 15px;
-    color: rgb(39, 69, 36);
-}
-
-
-
-</style>
-
 <body>
+    <p class="home">
+        <span id="h">-home-</span>
+        <span id="f">-foto-</span>
+        <span id="s">-sobre-</span>
+        <span id="e">-extra-</span>
+    </p>
     <h1 id="inicio"> <strong> Olá! Meu nome é João Pedro de Assis Almada </strong></h1>
-    <h2 id="me"><em> E ESSE SOU EU:</em>
+    <div class="lofil">
+    <h2 id="me"><div class="perfil"><em> E ESSE SOU EU:</em>
         <h2>
+                <img id="foto"
+                    src="https://scontent.fiza1-1.fna.fbcdn.net/v/t39.30808-6/246859400_4433656506720606_5940284232928061299_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFC7X3sgubyuJJuPZc71iNZ6HTovUZJqSjodOi9RkmpKOat0cLTLOBIN3z1cp4mpzdsS9--kaOdlqhVS2PJA2Is&_nc_ohc=AUgEKy9rJ5gAX9TM7ns&_nc_ht=scontent.fiza1-1.fna&oh=00_AfCi2VGszYmmHEPNr0gI4zHXZt0VOBmcNmbCe8OhRmLyHA&oe=637A80CE"
+                    alt="Euzin" width="300px">
+                <h3>
+                    <p id="frase"> <em> Aprendendo, testando e errando
+                            <br>(principalmente errando) </em>
+                    </p>
+                </h3>
+            </div>
+            <br>
 
-            <img id="foto"
-                src="https://scontent.fiza1-1.fna.fbcdn.net/v/t39.30808-6/246859400_4433656506720606_5940284232928061299_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeFC7X3sgubyuJJuPZc71iNZ6HTovUZJqSjodOi9RkmpKOat0cLTLOBIN3z1cp4mpzdsS9--kaOdlqhVS2PJA2Is&_nc_ohc=AUgEKy9rJ5gAX9TM7ns&_nc_ht=scontent.fiza1-1.fna&oh=00_AfCi2VGszYmmHEPNr0gI4zHXZt0VOBmcNmbCe8OhRmLyHA&oe=637A80CE"
-                alt="Euzin" width="300px">
             <h3>
-                <p id="frase"> <em> Aprendendo, testando e errando
-                        <br>(principalmente errando) </em>
-                </p>
-            </h3>
-
-          <br>
-
-            <h3>
-                <p> VAMOS LÁ!
-                    <br> 
+                <p>
+                <div class="local"> VAMOS LÁ!
+                    <br>
                     <p id="id"> Para me conhecerem melhor: </p>
                     <p id="cidade"> Sou de Carandaí, uma cidadezinha no interior de Minas Gerais </p>
                     <img class="fts" src="imagens/cdai.jpg" alt="casinha" width="200px">
                     <img class="fts" src="imagens/cdai3.jpg" alt="casinha" width="200px">
                     <img class="fts" src="imagens/cdai4.jpg" alt="casinha" width="200px">
-                    <br>
-                    <br><p id="pais"> Como um típico brasileiro, sou <strong> apaixonado </strong> por praias, futebol e
+                </div>
+            </div>
+                <br>
+
+                <br>
+                <p id="pais"> Como um típico brasileiro, sou <strong> apaixonado </strong> por praias, futebol e
                     principalmente, pela
                     comida!</p>
                 </p>
@@ -125,7 +53,7 @@ font-style: italic;
 
             <h3 id="list">
                 <p id="hab">
-                    
+
                     <em> Minhas melhores habilidades são: </em>
                 <ul id="chk">
                     <li>Comunicação</li>

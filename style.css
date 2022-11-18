@@ -1,0 +1,153 @@
+body {
+    background-color: rgba(68, 168, 97, 0.6);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#h {
+    background-color: rgb(193, 249, 193);
+    color: rgb(39, 69, 36);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#f {
+    background-color: rgb(193, 249, 193);
+    color: rgb(39, 69, 36);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#s {
+    background-color: rgb(193, 249, 193);
+    color: rgb(39, 69, 36);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#e {
+    background-color: rgb(193, 249, 193);
+    color: rgb(39, 69, 36);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.home {
+    color: rgb(196, 251, 207);
+    background-color: rgb(1, 84, 27);
+    position: fixed;
+    font-size: 20px;
+    z-index: 10;
+    top: 0px;
+    line-height: 1cm;
+    width: 700px;
+    margin-top: 0;
+    text-align: center;
+}
+
+#inicio {
+    color: white;
+    background-color: rgb(39, 69, 36);
+    font-size: 48px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 25px;
+    position: relative;
+    top: 1cm;
+}
+
+#me {
+    color: rgb(39, 69, 36);
+    background-color: rgb(193, 249, 193);
+    border-radius: 15px;
+    font-size: 24;
+    font: bold;
+}
+
+#frase {
+    color: rgb(1, 84, 27);
+    font-size: 17px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#list {
+    text-align: center;
+    color: rgb(193, 249, 193);
+    background-color: rgb(68, 115, 83);
+    font-size: 20px;
+}
+
+#hab {
+    background-color: rgb(39, 69, 36);
+    font-size: 25px;
+}
+
+#chk {
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#foto {
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: seagreen;
+}
+
+#info {
+    font-size: 15px;
+    font-style: italic;
+    text-align: end;
+}
+
+.fts {
+    border-radius: 15px;
+    padding: 10px;
+    background: local seagreen;
+}
+
+#pais {
+    background-color: rgb(68, 115, 83);
+    color: rgb(196, 251, 207);
+    font-style: italic;
+}
+
+#cidade {
+    background-color: rgb(1, 84, 27);
+    border-radius: 15px;
+    color: rgb(193, 249, 193);
+}
+
+.local {
+    position: absolute;
+    top: 165px;
+    left: 650px;
+    overflow: auto;
+    background-color: rgb(193, 249, 193);
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.perfil {
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    background-color: rgb(193, 249, 193);
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 15px;
+
+}
+
+.lofil {
+    background-color: rgb(193, 249, 193);
+    padding: 6cm;
+    border-radius: 15px;
+}
