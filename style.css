@@ -42,20 +42,18 @@ body {
     line-height: 1cm;
     width: 700px;
     margin-top: 0;
-    text-align: center;
+    padding: 10px 370px;
 }
 
 #inicio {
     color: white;
-    background-color: rgb(39, 69, 36);
+    background-color: rgb(68, 115, 83);
     font-size: 48px;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    box-sizing: border-box;
     border-radius: 25px;
-    position: relative;
-    top: 1cm;
+    margin-top: 2cm;
 }
 
 #me {
@@ -68,16 +66,20 @@ body {
 
 #frase {
     color: rgb(1, 84, 27);
-    font-size: 17px;
+    font-size: 15px;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
 }
 
-#list {
+.list {
     text-align: center;
     color: rgb(193, 249, 193);
     background-color: rgb(68, 115, 83);
     font-size: 20px;
+    position: absolute;
+    top: 1080px;
+    left: 400px;
+    width: 666px;
 }
 
 #hab {
@@ -99,9 +101,13 @@ body {
 }
 
 #info {
-    font-size: 15px;
+    color: seagreen;
+    font-size: 20px;
     font-style: italic;
-    text-align: end;
+    text-align: center;
+    position:absolute;
+    top: 1500px;
+    left: 666px;
 }
 
 .fts {
@@ -114,19 +120,39 @@ body {
     background-color: rgb(68, 115, 83);
     color: rgb(196, 251, 207);
     font-style: italic;
+    font-size: 24px;
+    padding: 10px;
+    position: absolute;
+    top: 800px;
+    right: 1px;
 }
 
 #cidade {
-    background-color: rgb(1, 84, 27);
+    background-color: seagreen;
     border-radius: 15px;
     color: rgb(193, 249, 193);
+    line-height: 25px;
+}
+
+#id {
+    background-color: rgba(68, 168, 97, 0.6);
+    border-radius: 15px;
+    color: rgb(39, 69, 36);
+    padding: 10px;
+    margin-top: 0;
+}
+
+#lets{
+    color: rgb(39, 69, 36);
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .local {
     position: absolute;
-    top: 165px;
+    top: 50px;
     left: 650px;
-    overflow: auto;
+    overflow: hidden;
     background-color: rgb(193, 249, 193);
     padding-right: 30px;
     padding-left: 30px;
@@ -138,11 +164,12 @@ body {
 .perfil {
     position: absolute;
     left: 200px;
-    top: 150px;
+    top: 50px;
     background-color: rgb(193, 249, 193);
     padding-right: 30px;
     padding-left: 30px;
     border-radius: 15px;
+    overflow: hidden;
 
 }
 
@@ -150,4 +177,7 @@ body {
     background-color: rgb(193, 249, 193);
     padding: 6cm;
     border-radius: 15px;
+    width: 985px;
+    overflow: hidden;
+    position: absolute;
 }
