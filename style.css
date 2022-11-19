@@ -117,6 +117,7 @@ a:visited{color: seagreen;}
     position:absolute;
     top: 1500px;
     left: 670px;
+    width: auto;
 }
 
 #tag{text-align-last: center;
@@ -139,6 +140,7 @@ margin-left: 1cm;
     position: absolute;
     top: 800px;
     right: 1px;
+    width: auto;
 }
 
 #cidade {
@@ -172,6 +174,7 @@ margin-left: 1cm;
     padding-left: 30px;
     border-radius: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: auto;
 
 }
 
@@ -184,6 +187,7 @@ margin-left: 1cm;
     padding-left: 30px;
     border-radius: 15px;
     overflow: hidden;
+    width: auto;
 
 }
 
