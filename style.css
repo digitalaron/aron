@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(68, 168, 97, 0.6);
+    background-image: url(https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBvcnRmb2xpbyUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -8,8 +8,7 @@ a:link{text-decoration: none;}
 a:hover{color: seagreen;
 background-color: rgb(39, 69, 36);
 border-radius: 10px;
-padding: 3px;
-width: 10px;
+padding: 5px;
 }
 a:visited{color: seagreen;}
 
@@ -43,17 +42,18 @@ a:visited{color: seagreen;}
 
 .home {
     color: rgb(196, 251, 207);
-    background-color: rgb(39, 69, 36);
+    background-color: rgba(39, 69, 36, 0.905);
     position: fixed;
     font-size: 20px;
     z-index: 10;
     top: 0px;
     left: 0px;
     line-height: 1cm;
-    width: 900px;
+    width:-webkit-fill-available;
     margin-top: 0;
-    padding: 10px 540px;
-    text-align:justify;
+    text-align:center;
+    display: flex;
+    justify-content: space-evenly
 }
 
 #inicio {
@@ -84,9 +84,9 @@ a:visited{color: seagreen;}
 
 .list {
     color: rgb(193, 249, 193);
-    background-color: rgb(68, 115, 83);
+    background-color: rgba(68, 115, 83, 0.86);
     font-size: 20px;
-    margin-top: 25cm;
+    margin-top: 1400px;
     text-align: center;
     border-radius: 15px;
 }
@@ -94,6 +94,11 @@ a:visited{color: seagreen;}
 #hab {
     background-color: rgb(39, 69, 36);
     font-size: 25px;
+    width:-webkit-fill-available;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 #chk {
@@ -110,20 +115,20 @@ a:visited{color: seagreen;}
 }
 
 #info {
-    color: seagreen;
+    color: rgb(65, 65, 65);
     font-size: 20px;
     font-style: italic;
     text-align: center;
-    position:absolute;
-    top: 1500px;
-    left: 670px;
-    width: auto;
+    margin-top: 100px;
+    width:-webkit-fill-available;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #tag{text-align-last: center;
-margin-top: 5cm;
-margin-left: 1cm;
-}
+margin-top: 100px;}
 
 .fts {
     border-radius: 15px;
@@ -131,16 +136,16 @@ margin-left: 1cm;
     background: local seagreen;
 }
 
-#pais {
+#sobre {
     background-color: rgb(68, 115, 83);
     color: rgb(196, 251, 207);
     font-style: italic;
     font-size: 24px;
     padding: 10px;
     position: absolute;
-    top: 800px;
+    top: 1300px;
     right: 1px;
-    width: auto;
+    width:-webkit-fill-available;
 }
 
 #cidade {
@@ -164,38 +169,27 @@ margin-left: 1cm;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.local {
-    position: absolute;
-    top: 25px;
-    left: 650px;
-    overflow: hidden;
-    background-color: rgb(193, 249, 193);
-    padding-right: 30px;
-    padding-left: 30px;
+.perfil {
     border-radius: 15px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: auto;
-
+    float: right;
+    width:-webkit-fill-available;
+    margin-top: 70px;
 }
 
-.perfil {
-    position: absolute;
-    left: 200px;
-    top: 50px;
-    background-color: rgb(193, 249, 193);
-    padding-right: 30px;
-    padding-left: 30px;
+.local {
     border-radius: 15px;
-    overflow: hidden;
-    width: auto;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    width:-webkit-fill-available;
 }
 
 .lofil {
-    background-color: rgb(193, 249, 193);
-    padding: 6cm;
     border-radius: 15px;
-    width: 985px;
-    overflow: hidden;
+    width:-webkit-fill-available;
+    overflow: auto;
     position: absolute;
+    box-sizing:border-box;
+    background-color: rgba(193, 249, 193, 0.866);
+    display: flex;
+    justify-content: center;
 }
