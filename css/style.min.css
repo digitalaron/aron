@@ -89,7 +89,8 @@ section {
 
 .navbar-brand {
   font-size: 40px;
-  color: #000; }
+  color: #000; 
+}
 
 .navbar-nav .nav-link {
   color: #fff;
@@ -565,11 +566,13 @@ section {
   z-index: 1002;
   top: 0;
   left: 0;
-  background-color: #000;
+  background-image: linear-gradient(#333399, #ff00cc);;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  color: #fff; }
+  color:#f1f1f1; 
+  font-weight: bold;
+}
 
 .sidenav-content {
   padding: 8px 32px;
@@ -584,13 +587,15 @@ section {
 
 .sidenav a {
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+  color:#f1f1f1d3;
   display: block;
   transition: 0.3s; }
 
 .sidenav a:hover {
-  color: #f1f1f1; }
+  font-size: 25px;
+  color: #f1f1f1; 
+  transition: 0.3s;
+}
 
 .sidenav #side-nav-close,
 .sidenav #side-search-close {
