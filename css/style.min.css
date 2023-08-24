@@ -14,12 +14,27 @@
   z-index: 10;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background:rgba(0, 0, 0, 0);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color:rgb(166, 166, 166);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgba(0, 0, 0, 0);  /* creates padding around scroll thumb */
+}
+
 /*
  * Roxy: Bootstrap template by GettTemplates.com
  * https://gettemplates.co/roxy
  */
 html, body {
-  width: 100%; }
+  width: 100%;
+}
 
 body {
   font-family: 'Lato', sans-serif;
@@ -81,6 +96,7 @@ section {
 
 #header-navbar {
   position: absolute;
+  /* background-image: linear-gradient(#333399, #ff00cc9d); */
   top: 0;
   right: 0;
   left: 0;
