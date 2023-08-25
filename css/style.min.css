@@ -34,7 +34,7 @@ body::-webkit-scrollbar-thumb {
 
 .row {
   display: flex;
-  align-items: baseline;
+  align-items: baseline !important;
 }
 
 .box-source h4 {
