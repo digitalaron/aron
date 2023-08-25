@@ -32,6 +32,35 @@ body::-webkit-scrollbar-thumb {
   color: #8E2DE2;
 }
 
+.row {
+  display: flex;
+  align-items: baseline;
+}
+
+.box-source h4 {
+  color: #8E2DE2;
+}
+
+.only-box:hover {
+  scale: 110%;
+  transition: 1s;
+}
+
+.only-box:hover h4 {
+  background-image: linear-gradient(to bottom, #c75be8, #8E2DE2, #781995, #8E2DE2, #c75be8);
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 400% 400%;
+  animation: gradient-text 10s ease-in-out infinite;
+}
+
+.performance-content {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 /*
  * Roxy: Bootstrap template by GettTemplates.com
  * https://gettemplates.co/roxy
@@ -386,6 +415,14 @@ section {
     transform: translate(0%, 3%) rotate(25deg); }
   100% {
     transform: translate(0%, 0%) rotate(25deg); } }
+
+    @keyframes gradient-text {
+      0% {
+        background-position: 0% 50%; }
+      50% {
+        background-position: 400% 200%; }
+      100% {
+        background-position: 0% 50%; } }
 
 .triangle {
   position: absolute; }
