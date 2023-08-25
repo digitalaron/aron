@@ -28,6 +28,10 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid rgba(0, 0, 0, 0);  /* creates padding around scroll thumb */
 }
 
+.aron-sigla {
+  color: #8E2DE2;
+}
+
 /*
  * Roxy: Bootstrap template by GettTemplates.com
  * https://gettemplates.co/roxy
