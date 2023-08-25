@@ -32,9 +32,13 @@ body::-webkit-scrollbar-thumb {
   color: #8E2DE2;
 }
 
-.row {
-  display: flex;
+.box-source {
+  display: flex !important;
   align-items: baseline !important;
+}
+
+.row {
+  align-items: baseline;
 }
 
 .box-source h4 {
