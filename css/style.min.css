@@ -39,7 +39,7 @@ body::-webkit-scrollbar-thumb {
 
 .row {
   align-items: baseline;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .box-source h4 {
