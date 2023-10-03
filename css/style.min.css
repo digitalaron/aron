@@ -1,4 +1,17 @@
 /* EDITS */
+.sobre-nos {
+  padding-bottom: 0 !important;
+}
+
+#app-profile-mockup {
+  opacity: 50%;
+}
+
+#app-profile-mockup:hover {
+  opacity: 100%;
+  transition: 0.5s;
+}
+
 .top-btn {
   margin-left: 3rem;
   position: fixed;
